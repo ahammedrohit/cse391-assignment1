@@ -1,0 +1,371 @@
+/* Not Responsive At All!!!!!!! */
+/* Author: Ali Ahammed Rohid */
+/* Assignment 1 for CSE391 */
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    background: url('/media/images/backgrounds/2123_2.jpg') no-repeat;
+    background-size: cover;
+
+}
+
+#navDesign {
+    border-radius: 5px;
+
+    background-color: rgba(119, 241, 125, 0.424);
+
+    height: 58px;
+    width: 100%;
+
+
+}
+
+#navTitle {
+
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px 0 0 100px;
+    display: inline-block;
+
+}
+
+/* Link for header Logo */
+
+a.link:link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a.link:active {
+    text-decoration: none;
+    color: wheat;
+}
+
+a.link:visited {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a.link:hover {
+    text-decoration: none;
+    color: #34A853;
+    font-weight: bold;
+
+
+}
+
+/* Link hover for NavBAr */
+a.linkNav:hover {
+    text-decoration: none;
+    color: #444441;
+    font-weight: bold;
+    
+    
+
+
+}
+
+.navBar {
+
+    display: inline-block;
+    padding: 0 0 0 50%;
+}
+
+#navItems {
+    display: inline;
+    float: left;
+    padding: 0 0 0 40px;
+    font-size: 1.25em;
+    font-weight: 500;
+
+
+}
+
+/* Upto navbar */
+
+/* Body content */
+
+/* COntainer for Section */
+.containerSec {
+    
+    contain: content;
+
+
+}
+
+/* COntainer for Section Div */
+.containerDiv {
+    float: left;
+    width: 60%;
+    height: auto;
+    border-radius: 20px;
+    margin: 2% 5% 2% 5%;
+    background-color: rgba(59, 56, 56, 0.609);
+    height: 20rem;
+
+}
+
+.containerDiv2 {
+    float: left;
+    width: 20%;
+    border-radius: 50%;
+    margin: 2% 5% 2% 3%;
+    background-color: rgba(59, 56, 56, 0.609);
+    height: 20rem;
+
+}
+
+#myPhoto{
+    border-radius: 50%;
+    border: 5px solid white;
+    height: 335px;
+    width: auto;
+}
+
+#hello {
+    font-size: 3em;
+    font-weight: bolder;
+    padding: 1% 0 0 20%;
+    display: inline-block;
+    color: #ffffff;
+}
+
+#helloComma {
+    font-size: 4em;
+    color: #4285F4;
+}
+
+#iDesign {
+
+    font-size: 4em;
+    font-weight: bolder;
+    padding: 1% 0 0 35%;
+    color: #ffffff;
+}
+
+#comma {
+    display: inline;
+    font-size: 4em;
+    color: #EA4335;
+}
+
+#mDesign {
+
+    font-size: 4em;
+    font-weight: bolder;
+
+    color: #ffffff;
+}
+
+#rohit {
+    font-size: em;
+    font-weight: bolder;
+    padding: 1% 0 0 10%;
+    color: #ffffff;
+}
+
+#dot {
+    display: inline;
+    font-size: 4em;
+    color: #FBBC05;
+}
+
+#quoteDiv {
+    margin: 2% 7% 0 7%;
+
+}
+
+#quote {
+    display: inline-block;
+    font-size: 3em;
+
+    color: #34A853;
+}
+
+#quoteText {
+    font-size: 1.5em;
+    font-style: oblique;
+    color: #ffffff;
+}
+
+/*About ME Section*/
+
+#aboutMeHeading {
+    border-radius: 10px;
+    border-top: 3px solid #4285F4;
+    border-bottom: 2px solid #4285F4;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    font-size: 1.5em;
+    color: azure;
+    background-color: rgba(59, 56, 56, 0.609);
+    border-radius: 10px;
+}
+
+#aboutMeDiv1 {
+    color: whitesmoke;
+    contain: content;
+    float: left;
+    width: 48%;
+
+    background-color: rgba(59, 56, 56, 0.609);
+    border-radius: 20px;
+    margin: 1%;
+    padding: 2% 0 2% 5%;
+
+
+
+    font-size: x-large;
+}
+
+#aboutMeDiv2 {
+    font-family: 'Satisfy', cursive;
+    contain: content;
+    color: azure;
+    font-size: larger;
+    float: left;
+    width: 48%;
+    background-color: rgba(59, 56, 56, 0.609);
+    border-radius: 20px;
+    margin: 1%;
+    padding: 2% 2% 1.5% 2%;
+
+
+    font-size: x-large;
+}
+
+/*Hobby Section*/
+
+#hobbyDiv{
+    border-radius: 10px;
+    background-color: rgba(59, 56, 56, 0.609);
+    
+    width: 18%;
+    float: left;
+    margin: 1%;
+    
+}
+#hobbyTitle{
+    border-radius: 10px;
+    border-top: 3px solid #34a853;
+    border-bottom: 2px solid #34a853;
+    text-align: center;
+    font-size: larger;
+    color: azure;
+    padding: 5%;
+
+}
+
+#hobbyImages{
+    height: 250px;
+    width: 100%;
+}
+
+/*Hobby Section Ends Here */
+
+/* A quote by Rumi */
+
+#quoteCenterDiv {
+    
+    background-image: linear-gradient(to right top, #0519377c, #004d7a6e, #00879377, #00bf737c, #a6eb1275);
+    text-align: center;
+    margin: 5%;
+    padding: 2%;
+    border-radius: 20px;
+    border: 10px double rgba(245, 245, 245, 0.575)
+}
+
+
+#quoteCenter {
+    font-family: 'Satisfy',
+        cursive;
+    color: azure;
+    font-size: 2.5em;
+    
+}
+
+#rumi{
+    font-family: 'Satisfy',
+    cursive;
+    color: azure;
+    font-size: 2em;
+    padding-left: 70%;
+
+}
+
+/*Favourite links*/
+
+#linksDiv {
+    border-radius: 10px;
+    background-color: rgba(59, 56, 56, 0.609);
+    
+    width: 23%;
+    float: left;
+    margin: 1%;
+    
+
+}
+
+#listDesign{
+    color: #34a853;
+    font-size: larger;
+}
+
+#centerDiv{
+    
+    padding: 0 0 5% 15%;
+}
+
+#linksTitle {
+    border-radius: 10px;
+    border-top: 3px solid #34a853;
+    border-bottom: 2px solid #34a853;
+    text-align: center;
+    font-size: larger;
+    color: azure;
+    padding: 2%;
+    font-size:1.4em;
+
+}
+
+#jumpDiv{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+#jump{
+    color: whitesmoke;
+}
+
+
+/* Footer */
+
+#footerDiv{
+    background-color: rgba(20, 20, 20, 0.664);
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    padding: 1%;
+}
+
+#footerText{
+    color: white;
+}
