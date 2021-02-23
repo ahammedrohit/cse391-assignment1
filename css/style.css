@@ -87,7 +87,7 @@ a.linkNav:hover {
     padding: 0 0 0 50%;
 }
 
-#navItems {
+.navItems {
     display: inline;
     float: left;
     padding: 0 0 0 40px;
@@ -191,7 +191,7 @@ a.linkNav:hover {
 
 }
 
-#quote {
+.quote {
     display: inline-block;
     font-size: 3em;
 
@@ -206,7 +206,7 @@ a.linkNav:hover {
 
 /*About ME Section*/
 
-#aboutMeHeading {
+.aboutMeHeading {
     border-radius: 10px;
     border-top: 3px solid #4285F4;
     border-bottom: 2px solid #4285F4;
@@ -252,7 +252,7 @@ a.linkNav:hover {
 
 /*Hobby Section*/
 
-#hobbyDiv{
+.hobbyDiv{
     border-radius: 10px;
     background-color: rgba(59, 56, 56, 0.609);
     
@@ -261,7 +261,7 @@ a.linkNav:hover {
     margin: 1%;
     
 }
-#hobbyTitle{
+.hobbyTitle{
     border-radius: 10px;
     border-top: 3px solid #34a853;
     border-bottom: 2px solid #34a853;
@@ -272,7 +272,7 @@ a.linkNav:hover {
 
 }
 
-#hobbyImages{
+.hobbyImages{
     height: 250px;
     width: 100%;
 }
@@ -311,7 +311,7 @@ a.linkNav:hover {
 
 /*Favourite links*/
 
-#linksDiv {
+.linksDiv {
     border-radius: 10px;
     background-color: rgba(59, 56, 56, 0.609);
     
@@ -366,6 +366,6 @@ a.linkNav:hover {
     padding: 1%;
 }
 
-#footerText{
+.footerText{
     color: white;
 }
