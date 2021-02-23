@@ -292,6 +292,7 @@ a.linkNav:hover {
 }
 
 .quoteTextAlign{
+    display: block;
     text-align: center;
 }
 
