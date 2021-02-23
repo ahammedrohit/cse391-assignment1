@@ -291,6 +291,9 @@ a.linkNav:hover {
     border: 10px double rgba(245, 245, 245, 0.575)
 }
 
+.quoteTextAlign{
+    text-align: center;
+}
 
 #quoteCenter {
     font-family: 'Satisfy',
