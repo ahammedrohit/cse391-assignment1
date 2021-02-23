@@ -322,17 +322,17 @@ a.linkNav:hover {
 
 }
 
-#listDesign{
+.listDesign{
     color: #34a853;
     font-size: larger;
 }
 
-#centerDiv{
+.centerDiv{
     
     padding: 0 0 5% 15%;
 }
 
-#linksTitle {
+.linksTitle {
     border-radius: 10px;
     border-top: 3px solid #34a853;
     border-bottom: 2px solid #34a853;
